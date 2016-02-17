@@ -18,3 +18,24 @@ the article titled _Printing a Book with CSS: Boom!_ by Bert Bos, Håkon Wium Li
 [Find out more »](http://alistapart.com/article/boom)
 
 
+
+
+## Boom! Build & Update Notes
+
+to be done
+
+
+### More Themes
+
+See the [Dr. Jekyll's Themes](https://drjekyllthemes.github.io) directory.
+
+### More Quick Starter Wizard Scripts
+
+See the [Mr. Hyde's Scripts](https://github.com/mrhydescripts/scripts) library.
+
+
+## Meta
+
+**Questions? Comments?**
+
+Post them to the [wwwmake forum](http://groups.google.com/group/wwwmake). Thanks!
