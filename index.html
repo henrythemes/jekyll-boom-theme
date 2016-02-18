@@ -2,5 +2,21 @@
 layout:  default
 ---
 
-to be done
+<!-- cover -->
+{% include frontcover.html %}
+<!-- frontmatter -->
+{% include halftitlepage.html %}
+{% include titlepage.html %}
+{% include imprint.html %}
+{% include toc.html %}
+{% include preface.html %}
 
+<!-- add chapters here -->
+
+{% for chapter in site.chapters %}
+  {{ chapter.content }}
+{% endfor %}
+
+
+<!-- backmatter -->
+{% include index.html %}

@@ -1,2 +1,25 @@
 # jekyll settings
 
+title:  "Cascading Style Sheets - Designing for the Web"
+author:
+  name: "Bert Bos, Håkon Wium Lie"
+
+
+
+########
+# more settings
+
+collections:
+  chapters:
+      output: false
+
+markdown: kramdown
+
+
+
+exclude:
+- README.md
+
+
+safe: true
+lsi: false

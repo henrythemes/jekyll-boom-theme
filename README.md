@@ -18,11 +18,44 @@ the article titled _Printing a Book with CSS: Boom!_ by Bert Bos, Håkon Wium Li
 [Find out more »](http://alistapart.com/article/boom)
 
 
+## Live Demo
+
+See a live demo @ [`henrythemes.github.io/jekyll-boom-theme` »](http://henrythemes.github.io/jekyll-boom-theme)
+
+
 
 
 ## Boom! Build & Update Notes
 
 to be done
+
+
+### Sections
+
+```
+A book consists of different types of sections. We propose to use
+DIV elements with these class names:
+
+    frontcover
+    halftitlepage: contains the title of the book
+    titlepage: contains the title of the book, name of author(s) and publisher
+    imprint: left page with copyright, publisher, library printing information
+    dedication: right page with short dedication
+    foreword: written by someone other than the author(s)
+    toc: table of contents
+    preface: preface, including acknowledgements
+    chapter: each chapter is given its own DIV element
+    references: contains list of references
+    appendix: each appendix is given its own 
+    bibliography
+    glossary
+    index
+    colophon: describes how the book was produced
+    backcover
+
+   A book will use several of the types listed above, but few books
+   will use all of them.
+```
 
 
 ### More Themes
