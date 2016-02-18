@@ -3,13 +3,34 @@ layout:  default
 ---
 
 <!-- cover -->
-{% include frontcover.html %}
+<div class="frontcover">
+  {% include frontcover.html %}
+</div>
+  
 <!-- frontmatter -->
-{% include halftitlepage.html %}
-{% include titlepage.html %}
-{% include imprint.html %}
-{% include toc.html %}
-{% include preface.html %}
+<div class="halftitlepage">
+  {% include halftitlepage.html %}
+</div>
+
+<div class="titlepage">
+  {% include titlepage.html %}
+</div>
+
+<div class="imprint">
+  {% include imprint.html %}
+</div>
+
+<div class="toc" id="toc-h-1">
+  <h1>Table of Contents</h1>
+
+  {% include toc.html %}
+</div>
+
+<div class="preface" id="preface-h-1">
+  <h1>Preface</h1>
+  
+  {% include preface.html %}
+</div>
 
 <!-- add chapters here -->
 
@@ -19,4 +40,8 @@ layout:  default
 
 
 <!-- backmatter -->
-{% include index.html %}
+<div class="index" id="index-h-1">
+  <h1>Index</h1>
+
+  {% include index.html %}
+</div>
