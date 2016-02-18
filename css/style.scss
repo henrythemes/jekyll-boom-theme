@@ -232,18 +232,7 @@ div.backcover { page-break-before: left }
 
 
 @import 'frontcover';
-
-
-/* titlepage, halftitlepage */
-
-div.titlepage h1, div.halftitlepage h1 { margin-bottom: 2em; }
-div.titlepage h2, div.halftitlepage h2 { font-size: 1.2em; margin-bottom: 3em; }
-div.titlepage h3, div.halftitlepage h3 { font-size: 1em; margin-bottom: 3em; }
-div.titlepage p, div.halftitlepage p { 
-  font-size: 1.4em;
-  font-weight: bold;
-  margin: 0; padding: 0;
-}
+@import 'titlepage';    // titlepage, halftitlepage
 
 
 /* TOC */
