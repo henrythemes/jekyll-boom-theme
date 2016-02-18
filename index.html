@@ -35,7 +35,16 @@ layout:  default
 <!-- add chapters here -->
 
 {% for chapter in site.chapters %}
-  {{ chapter.content }}
+
+  <div class="chapter" id="{{ chapter.ref }}">
+    <!-- fix/todo: for chapter 1 use:
+       <h1 style="counter-reset: page 1">The Web and HTML</h1>
+      -->
+     <h1>{{ chapter.title }}</h1>
+
+    {{ chapter.content }}
+  </div>
+
 {% endfor %}
 
 
